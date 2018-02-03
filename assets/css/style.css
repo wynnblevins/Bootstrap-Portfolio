@@ -1,6 +1,6 @@
 html {
 	position: relative;
-	min-height: 100%;
+	height: 100%;
 }
 
 p, label, a {
@@ -12,49 +12,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+	background: url(../images/gray_jean/gray_jean.png);
 	margin-bottom: 60px;
-	background: url(../images/gray_jean/gray_jean.png)
+}
+
+div.white {
+	background-color: #fff;
+}
+
+p.bio-text {
+	line-height: 2.0;
+}
+
+img.main-img {
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+div.row.bottom-row {
+	padding-bottom: 15px;
 }
 
 .footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 50px;
-	border-top: #4aaaa5 solid 5px;
-	background-color: gray;
-	text-align: center;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+.container {
+	width: auto;
+	max-width: 960px;
+	padding: 0 15px;
 }
 
-body > .container {
-	padding: 60px 15px 0;
+.container .text-muted {
+	margin: 20px 0;
 }
-
-/* start footer styles */
-.footer > .container {
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-footer.footer > div.container > span.copyright {
-	text-align: center;
-	color: #fff;
-	line-height: 50px;
-	font-size: 10px;
-}
-/* end footer styles */
-
-/* statt navbar styles */
-nav.white-navbar {
-	background-color: #fff;
-}
-
-li.nav-item > h1.name-nav-item {
-	background-color: #4aaaa5;
-}
-
-div.name-header {
-	background-color: #4aaaa5;
-	color: #fff;
-}
-/* end navbar styles */
