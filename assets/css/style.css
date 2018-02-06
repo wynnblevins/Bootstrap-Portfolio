@@ -73,3 +73,8 @@ div.fullWidthLine {
     margin-right: 15px;
 }
 /* end line div styles */
+
+form.contact-form {
+	padding-left: 20px;
+	padding-right: 20px;
+}
