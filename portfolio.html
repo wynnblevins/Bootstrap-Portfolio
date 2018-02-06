@@ -1,61 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Bootstrap Practice</title>
 
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" 
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm fixed-top white-navbar">
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <div class="navbar-header mr-auto name-header">
-                    <span class="navbar-brand">Wynn Blevins</a>
-                </div>
-
-                <!-- Navbar Right Side -->
-                <ul class="navbar-nav my-2 my-lg-0">	
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <span class="navbar-brand">Wynn Blevins</span>
             </div>
-        </nav>
-    </header>
-  
-      <!-- Begin page content -->
-    <main role="main" class="container">
-        <h1>Portfolio Page</h1>
-    </main>
-  
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-sm-9">
+            <div class="col-md-12 white">
+                <div class="row text-center">
+                    <span class="col-md-6">
+                        <img src="assets/images/angular-logo-resized.png" class="center" alt="Angular Logo">
+                    </span>
+                    <span class="col-md-6">
+                        <img src="assets/images/fizz-buzz-resized.png" alt="Fizz Buzz">
+                    </span>
+                </div>
+                <div class="row text-center">
+                    <span class="col-md-6">
+                        <img src="assets/images/tic-tac-toe-resized.png" alt="Tic Tac Toe">
+                    </span>
+                    <span class="col-md-6">
+                        <img src="assets/images/prime_numbers_resized.png" alt="Is Prime?">
+                    </span>
+                </div>
+                <div class="row text-center">
+                    <span class="col-md-6">
+                        <img src="assets/images/fibonacci-sequence-resized.png" alt="Tic Tac Toe">
+                    </span>
+                </div>
+            </div>    
+        </div>
+        <div class="col-sm-3 white">
+            <div class="row">
+                <div class="text-center">
+                    <h2>Connect with Me</h2>
+                </div>
+            </div>
+            <div class="row bottom-row">
+                <div class="col-sm-4">
+                    <img src="assets/images/linkedin_logo_small.png"/>
+                </div> 
+                <div class="col-sm-4">
+                    <img src="assets/images/github_logo_small.png"/>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/stackoverflow_logo_small.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container">
-            <span class="copyright">Copyright (c) 2017 Robert W. Blevins</span>
+            <p class="text-muted copyright">Copyright (c) 2018, Robert W. Blevins</p>
         </div>
     </footer>
-  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
-        crossorigin="anonymous"></script>
 </body>
 </html>

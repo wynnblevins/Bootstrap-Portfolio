@@ -56,3 +56,7 @@ div.row.bottom-row {
 .container .text-muted {
 	margin: 20px 0;
 }
+
+p.copyright {
+	text-align: center;
+}
