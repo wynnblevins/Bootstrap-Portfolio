@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Practice</title>
+    <title>Wynn Blevins</title>
 
     <link rel="stylesheet" href="assets/css/reset.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -14,19 +13,33 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container">
+            <!-- Brand/logo -->
             <div class="navbar-header">
-                <span class="navbar-brand">Wynn Blevins</span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#example-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand" href="#">Wynn Blevins</a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+            
+            <!-- Collapsible Navbar -->
+            <div class="collapse navbar-collapse" id="example-1">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>    
     </nav>
     <div class="container">
         <div class="col-sm-9">
             <div class="col-sm-12 white">
+                <h2 class="page-title">About</h2>
+                <div class="line"></div>
                 <img class="pull-left img-responsive main-img" 
                     src="assets/images/profile-pic-150x150.png"> 
                 <p class="bio-text">Robert (Wynn) Blevins is a software developer from 
@@ -51,7 +64,8 @@
         <div class="col-sm-3 white">
             <div class="row">
                 <div class="text-center">
-                    <h2>Connect with Me</h2>
+                    <h2 class="page-title">Connect with Me</h2>
+                    <div class="lineWithMargin"></div>
                 </div>
             </div>
             <div class="row bottom-row">
@@ -73,5 +87,9 @@
             <p class="text-muted copyright">Copyright (c) 2018, Robert W. Blevins</p>
         </div>
     </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
