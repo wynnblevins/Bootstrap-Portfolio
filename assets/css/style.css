@@ -17,11 +17,12 @@ h2.page-title {
 
 p.copyright {
 	text-align: center;
+	color: black;
 }
 
 body {
 	background: url(../images/gray_jean/gray_jean.png);
-	margin-bottom: 60px;
+	height: 100%;
 }
 
 div.white {
@@ -41,27 +42,33 @@ div.row.bottom-row {
 	padding-bottom: 15px;
 }
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	/* Set the fixed height of the footer here */
-	height: 60px;
-	background-color: #f5f5f5;
-	border-top: 5px solid #4aaaa5;
+body {
+    display: flex;
+    flex-direction: column;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    background-color: #666;
+    border-top: 4px solid #4aaaa5;
+    height: 10%;
+    line-height: 2.0;
+}
+
+p.copyright {
+    color: #fff;
+}
+
+/* navbar related styles */
 .navbar-container {
 	width: auto;
 	max-width: 960px;
 	padding: 0 15px;
 }
 
-.container .text-muted {
-	margin: 20px 0;
-}
-
-/* navbar related styles */
 span.navbar-brand {
 	background-color: #4aaaa5 !important;
 	color: #fff !important;
@@ -94,7 +101,6 @@ div.porfolio-row {
 	margin-bottom: 20px;
 	margin-top: 20px;	
 }
-/* end portfolio demo app styles */
 
 /* contact form styles */
 form.contact-form {
@@ -116,6 +122,7 @@ h1.nameHeader {
 	height: 100%;
 }
 
+/* Begin demo app list styles */
 ul.double {
     width:760px;
     margin-bottom:20px;
@@ -160,6 +167,7 @@ div.centered {
 }
 /* end demo app list styles */
 
-li.navbar-item:hover {
-	background-color: #4aaaa5;
-}
+
+  .footer {
+	background: #666;
+  }
