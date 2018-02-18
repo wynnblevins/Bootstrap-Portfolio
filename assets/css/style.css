@@ -29,6 +29,34 @@ div.white {
 	background-color: #fff;
 }
 
+.page-brand {
+    margin-left: 130px;
+}
+
+@media (min-width: 0px) {
+    .appTitle {
+        margin-left: 0px;
+    }
+
+    .left-padded {
+        padding-left: 20px;
+    }
+
+    .page-brand {
+        margin-left: 0px;
+    }
+
+    .bottom-margin {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .left-padded {
+        padding-left: 130px;
+    }
+}
+
 p.bio-text {
 	line-height: 2.0;
 }
@@ -58,10 +86,6 @@ body {
     line-height: 2.0;
 }
 
-p.copyright {
-    color: #fff;
-}
-
 /* navbar related styles */
 .navbar-container {
 	width: auto;
@@ -69,9 +93,10 @@ p.copyright {
 	padding: 0 15px;
 }
 
-span.navbar-brand {
+.navbar-brand {
 	background-color: #4aaaa5 !important;
-	color: #fff !important;
+    color: #fff !important;
+    height: 48px;
 }
 
 li.navbar-list-item:hover {
@@ -144,10 +169,15 @@ a.appLink {
     color: #fff; 
 }
 
+.appTitle {
+    padding-bottom: 32px;
+    width: 150px;
+}
+
 span.appTitle {
     position: absolute;
     bottom: -50px;
-    right: 1px;
+    right: 0px;
     margin: 0 auto;
     margin-bottom: 15px;
     padding-top: 5px;
@@ -166,8 +196,19 @@ div.centered {
 	text-align: center;
 }
 /* end demo app list styles */
+.footer {
+    background: #666;
+}
 
+a.collapse-menu-item {
+    z-index: 1000;
+    background-color: whitesmoke;
+}
 
-  .footer {
-	background: #666;
-  }
+.page-right {
+    padding-right: 130px;
+}
+
+.slight-bottom-margin {
+    margin-bottom: 15px;
+}
