@@ -70,6 +70,10 @@ div.row.bottom-row {
 	padding-bottom: 15px;
 }
 
+div.row.bottom-portfolio-row {
+    margin-bottom: 50px;
+}
+
 body {
     display: flex;
     flex-direction: column;
